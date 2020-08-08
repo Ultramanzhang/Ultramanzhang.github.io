@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>图床 on ultraman的梦想起点</title>
+    <link>https://gitee.com/ultramanzhang/ultramanzhang.git/tags/%E5%9B%BE%E5%BA%8A/</link>
+    <description>Recent content in 图床 on ultraman的梦想起点</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Jul 2020 17:45:22 +0800</lastBuildDate>
+    
+	<atom:link href="https://gitee.com/ultramanzhang/ultramanzhang.git/tags/%E5%9B%BE%E5%BA%8A/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>利用Picgo&#43;gitee搭建图床</title>
+      <link>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/%E5%88%A9%E7%94%A8picgo-gitee%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</link>
+      <pubDate>Wed, 08 Jul 2020 17:45:22 +0800</pubDate>
+      
+      <guid>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/%E5%88%A9%E7%94%A8picgo-gitee%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</guid>
+      <description>&lt;p&gt;还在为写博客没有图片而苦恼吗？来搭建一个简易的图床吧！&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

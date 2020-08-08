@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.73.0 with theme Tranquilpeak 0.4.8-BETA">
+<meta name="author" content="Ultraman">
+<meta name="keywords" content="tech">
+<meta name="description" content="配置java变量">
+
+
+<meta property="og:description" content="配置java变量">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JAVA环境变量配置">
+<meta name="twitter:title" content="JAVA环境变量配置">
+<meta property="og:url" content="https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE/">
+<meta property="twitter:url" content="https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE/">
+<meta property="og:site_name" content="ultraman的梦想起点">
+<meta property="og:description" content="配置java变量">
+<meta name="twitter:description" content="配置java变量">
+<meta property="og:locale" content="zh-cn">
+
+  
+    <meta property="article:published_time" content="2020-07-06T15:23:15">
+  
+  
+    <meta property="article:modified_time" content="2020-07-06T15:23:15">
+  
+  
+  
+    
+      <meta property="article:section" content="技术">
+    
+      <meta property="article:section" content="小白">
+    
+  
+  
+    
+      <meta property="article:tag" content="技术">
+    
+      <meta property="article:tag" content="”环境搭建“">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://gitee.com/images/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%20-%20%E5%89%AF%E6%9C%AC.jpg">
+  <meta property="twitter:image" content="https://gitee.com/images/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%20-%20%E5%89%AF%E6%9C%AC.jpg">
+
+
+  <meta property="og:image" content="https://gitee.com/images/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.jpg">
+  <meta property="twitter:image" content="https://gitee.com/images/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.jpg">
+
+
+
+
+  <meta property="og:image" content="https://gitee.com/images/touxiang.jpeg">
+  <meta property="twitter:image" content="https://gitee.com/images/touxiang.jpeg">
+
+
+    <title>JAVA环境变量配置</title>
+
+    <link rel="icon" href="https://gitee.com/ultramanzhang/ultramanzhang.git/images/favicon.ico">
+    
+
+    
+
+    <link rel="canonical" href="https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://gitee.com/ultramanzhang/ultramanzhang.git/css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+  <script src="https://cdn.jsdelivr.net/gh/yremp/yremp-js@1.5/sakura.js"></script>
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="5">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://gitee.com/ultramanzhang/ultramanzhang.git/">ultraman的梦想起点</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://gitee.com/ultramanzhang/ultramanzhang.git/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://gitee.com/images/touxiang.jpeg" alt="作者的图片" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="5">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://gitee.com/ultramanzhang/ultramanzhang.git/#about">
+          <img class="sidebar-profile-picture" src="https://gitee.com/images/touxiang.jpeg" alt="作者的图片" />
+        </a>
+        <h4 class="sidebar-profile-name">Ultraman</h4>
+        
+          <h5 class="sidebar-profile-bio">All in or nothing, now or never!</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://gitee.com/ultramanzhang/ultramanzhang.git/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">首页</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://gitee.com/ultramanzhang/ultramanzhang.git/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">类别</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://gitee.com/ultramanzhang/ultramanzhang.git/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">标签</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://gitee.com/ultramanzhang/ultramanzhang.git/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">归档</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://gitee.com/ultramanzhang/ultramanzhang.git/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">关于</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/Ultramanzhang" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://gitee.com/ultramanzhang/ultramanzhang.git/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+  
+  
+  
+</nav>
+
+      
+  <div class="post-header-cover
+              text-center
+              post-header-cover--full"
+       style="background-image:url('/images/java%e7%8e%af%e5%a2%83%e5%8f%98%e9%87%8f.jpg')"
+       data-behavior="5">
+    
+      <div class="post-header main-content-wrap text-center">
+  
+    <h1 class="post-title" itemprop="headline">
+      JAVA环境变量配置
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2020-07-06T15:23:15&#43;08:00">
+        
+  七月 6, 2020
+
+      </time>
+    
+    
+  
+  
+    <span>发布在</span>
+    
+      <a class="category-link" href="https://gitee.com/ultramanzhang/ultramanzhang.git/categories/%e6%8a%80%e6%9c%af">技术</a>, 
+    
+      <a class="category-link" href="https://gitee.com/ultramanzhang/ultramanzhang.git/categories/%e5%b0%8f%e7%99%bd">小白</a>
+    
+  
+
+  </div>
+
+</div>
+    
+  </div>
+
+
+      <div id="main" data-behavior="5"
+        class="hasCover
+               hasCoverMetaIn
+               hasCoverCaption">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+            <span class="post-header-cover-caption caption">文章cover图片描述</span>
+          
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>配置java变量</p>
+<!-- raw HTML omitted -->
+<h1 id="java变量配置">java变量配置</h1>
+<p>在我们学习的过程中我们需要很多的变量，而在学习java的路上我们首先需要搭建java虚拟机的运行环境，在这里我还是选择装jdk1.8。毕竟对于大多数人来说JDK1.8是绝对够用的</p>
+<h1 id="jdk18的下载">jdk1.8的下载</h1>
+<ul>
+<li>下载  <br>
+<a href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html">jdk1.8下载</a>一般情况下在Windows10中直接下载64位版本的就可以了</li>
+<li>Windows平台下载这两个
+<img src="https://gitee.com/ultramanzhang/images/raw/master/img/20200707213005.png" alt=""></li>
+<li>安装JDK<br>
+<img src="https://www.sxt.cn/360shop/Public/admin/UEditor/20170515/1494838268176148.png" alt="">
+<img src="https://www.sxt.cn/360shop/Public/admin/UEditor/20170515/1494838288350322.png" alt="">
+<img src="https://www.sxt.cn/360shop/Public/admin/UEditor/20170515/1494838308687920.png" alt="">   出现如上画面代表，JDK安装成功。</li>
+<li>环境变量的配置
+我们进入到jdk安装目录（C:\Program Files\Java\jdk1.8.0_131）可以看到以下内容
+<ul>
+<li>bin目录是存储一些可执行的二进制文件；</li>
+<li>lib存储相关jar包；</li>
+<li>src.zip是JDK相关JAVA类的源代码。
+<img src="https://www.sxt.cn/360shop/Public/admin/UEditor/20170606/1496738387902099.png" alt=""></li>
+</ul>
+</li>
+</ul>
+<h1 id="配置环境变量">配置环境变量</h1>
+<p>环境变量是在操作系统中一个具有特定名字的对象，它包含了一个或者多个应用程序所将使用到的信息。 <br>
+Path是一个常见的环境变量，它告诉操作系统，当要求系统运行一个程序而没有告诉它程序所在的完整路径时，系统除了在当前目录下寻找此程序外，还应到哪些目录下寻找。</p>
+<ul>
+<li>设置path环境变量  <br>
+1.右键计算机——&gt;属性——&gt;高级系统设置，出现图所示界面。
+<img src="https://gitee.com/ultramanzhang/images/raw/master/img/20200707212249.png" alt=""></li>
+</ul>
+<p>2.单击环境变量按钮，进入图所示环境变量操作主界面：</p>
+<p><img src="https://gitee.com/ultramanzhang/images/raw/master/img/20200707212337.png" alt="">
+<img src="https://gitee.com/ultramanzhang/images/raw/master/img/20200707212412.png" alt="">
+3.单击新建按钮，新建JAVA_HOME变量（用于说明JDK的安装目录），如图所示
+<img src="https://gitee.com/ultramanzhang/images/raw/master/img/20200707212447.png" alt="">这里你也可以浏览目录</p>
+<p>4.保存后，修改环境变量path将下面字符添加到path中</p>
+<pre><code>%JAVA_HOME%\bin
+</code></pre><p>5.查看java是否安装成功</p>
+<ul>
+<li>按住win+R输入cmd</li>
+</ul>
+<p><img src="https://gitee.com/ultramanzhang/images/raw/master/img/20200707212705.png" alt=""></p>
+<ul>
+<li>键入以下命令</li>
+</ul>
+<pre><code>java -version
+</code></pre><p><img src="https://gitee.com/ultramanzhang/images/raw/master/img/20200707212912.png" alt=""> <br>
+出现这个界面说明安装成功</p>
+<ul>
+<li>或者输入下面这个命令</li>
+</ul>
+<pre><code>javac
+</code></pre><p><img src="https://gitee.com/ultramanzhang/images/raw/master/img/20200707212616.png" alt=""><br>
+出现这个界面也是安装成功</p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">标签</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://gitee.com/ultramanzhang/ultramanzhang.git/tags/%E6%8A%80%E6%9C%AF/">技术</a>
+
+  <a class="tag tag--primary tag--small" href="https://gitee.com/ultramanzhang/ultramanzhang.git/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/">”环境搭建“</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2windows10%E7%8E%AF%E5%A2%83%E4%B8%8B/" data-tooltip="使用hugo&#43;GitHub搭建个人博客（Windows10环境下）">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">上一篇</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E5%A4%96%E9%93%BE/" data-tooltip="给Hugo博客添加网易云音乐外链">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">下一篇</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2020 Ultraman. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="5">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2windows10%E7%8E%AF%E5%A2%83%E4%B8%8B/" data-tooltip="使用hugo&#43;GitHub搭建个人博客（Windows10环境下）">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">上一篇</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E5%A4%96%E9%93%BE/" data-tooltip="给Hugo博客添加网易云音乐外链">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">下一篇</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="5">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://gitee.com/images/touxiang.jpeg" alt="作者的图片" />
+    
+    <h4 id="about-card-name">Ultraman</h4>
+    
+      <div id="about-card-bio">All in or nothing, now or never!</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        学生
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        郑州
+      </div>
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://gitee.com/ultramanzhang/ultramanzhang.git/images/cover-v1.2.0.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://gitee.com/ultramanzhang/ultramanzhang.git/js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
+
+
+  
+    <script src="https://gitee.com/ultramanzhang/ultramanzhang.git/js/clicklove.js"></script>
+  
+
+  
+    <script src="https://gitee.com/ultramanzhang/ultramanzhang.git/js/snow.js"></script>
+  
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/gitee.com\/ultramanzhang\/ultramanzhang.git\/2020\/07\/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE\/';
+          
+            this.page.identifier = '\/2020\/07\/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'tranquilpeak';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+

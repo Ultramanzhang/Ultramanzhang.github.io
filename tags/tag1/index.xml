@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tag1 on ultraman的梦想起点</title>
+    <link>https://ultramanzhang.github.io/tags/tag1/</link>
+    <description>Recent content in tag1 on ultraman的梦想起点</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Aug 2020 11:34:19 +0800</lastBuildDate>
+    
+	<atom:link href="https://ultramanzhang.github.io/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用宝塔界面安装Cloudreve实现私人云盘</title>
+      <link>https://ultramanzhang.github.io/2020/08/%E4%BD%BF%E7%94%A8%E5%AE%9D%E5%A1%94%E7%95%8C%E9%9D%A2%E5%AE%89%E8%A3%85cloudreve%E5%AE%9E%E7%8E%B0%E7%A7%81%E4%BA%BA%E4%BA%91%E7%9B%98/</link>
+      <pubDate>Sat, 01 Aug 2020 11:34:19 +0800</pubDate>
+      
+      <guid>https://ultramanzhang.github.io/2020/08/%E4%BD%BF%E7%94%A8%E5%AE%9D%E5%A1%94%E7%95%8C%E9%9D%A2%E5%AE%89%E8%A3%85cloudreve%E5%AE%9E%E7%8E%B0%E7%A7%81%E4%BA%BA%E4%BA%91%E7%9B%98/</guid>
+      <description>&lt;p&gt;使用宝塔界面安装Cloudreve实现私人云&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

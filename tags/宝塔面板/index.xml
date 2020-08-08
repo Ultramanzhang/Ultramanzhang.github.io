@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>宝塔面板 on ultraman的梦想起点</title>
+    <link>https://gitee.com/ultramanzhang/ultramanzhang.git/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/</link>
+    <description>Recent content in 宝塔面板 on ultraman的梦想起点</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Aug 2020 11:34:19 +0800</lastBuildDate>
+    
+	<atom:link href="https://gitee.com/ultramanzhang/ultramanzhang.git/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用宝塔界面安装Cloudreve实现私人云盘</title>
+      <link>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/08/%E4%BD%BF%E7%94%A8%E5%AE%9D%E5%A1%94%E7%95%8C%E9%9D%A2%E5%AE%89%E8%A3%85cloudreve%E5%AE%9E%E7%8E%B0%E7%A7%81%E4%BA%BA%E4%BA%91%E7%9B%98/</link>
+      <pubDate>Sat, 01 Aug 2020 11:34:19 +0800</pubDate>
+      
+      <guid>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/08/%E4%BD%BF%E7%94%A8%E5%AE%9D%E5%A1%94%E7%95%8C%E9%9D%A2%E5%AE%89%E8%A3%85cloudreve%E5%AE%9E%E7%8E%B0%E7%A7%81%E4%BA%BA%E4%BA%91%E7%9B%98/</guid>
+      <description>&lt;p&gt;使用宝塔界面安装Cloudreve实现私人云&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用服务器安装宝塔界面</title>
+      <link>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/08/%E4%BD%BF%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%89%E8%A3%85%E5%AE%9D%E5%A1%94%E7%95%8C%E9%9D%A2/</link>
+      <pubDate>Sat, 01 Aug 2020 10:47:03 +0800</pubDate>
+      
+      <guid>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/08/%E4%BD%BF%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%89%E8%A3%85%E5%AE%9D%E5%A1%94%E7%95%8C%E9%9D%A2/</guid>
+      <description>&lt;p&gt;使用服务器安装宝塔界面&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

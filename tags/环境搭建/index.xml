@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>”环境搭建“ on ultraman的梦想起点</title>
+    <link>https://gitee.com/ultramanzhang/ultramanzhang.git/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
+    <description>Recent content in ”环境搭建“ on ultraman的梦想起点</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Jul 2020 15:23:15 +0800</lastBuildDate>
+    
+	<atom:link href="https://gitee.com/ultramanzhang/ultramanzhang.git/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JAVA环境变量配置</title>
+      <link>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Mon, 06 Jul 2020 15:23:15 +0800</pubDate>
+      
+      <guid>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE/</guid>
+      <description>&lt;p&gt;配置java变量&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>小白 on ultraman的梦想起点</title>
+    <link>https://gitee.com/ultramanzhang/ultramanzhang.git/categories/%E5%B0%8F%E7%99%BD/</link>
+    <description>Recent content in 小白 on ultraman的梦想起点</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Aug 2020 10:47:03 +0800</lastBuildDate>
+    
+	<atom:link href="https://gitee.com/ultramanzhang/ultramanzhang.git/categories/%E5%B0%8F%E7%99%BD/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用服务器安装宝塔界面</title>
+      <link>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/08/%E4%BD%BF%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%89%E8%A3%85%E5%AE%9D%E5%A1%94%E7%95%8C%E9%9D%A2/</link>
+      <pubDate>Sat, 01 Aug 2020 10:47:03 +0800</pubDate>
+      
+      <guid>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/08/%E4%BD%BF%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%89%E8%A3%85%E5%AE%9D%E5%A1%94%E7%95%8C%E9%9D%A2/</guid>
+      <description>&lt;p&gt;使用服务器安装宝塔界面&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>利用Picgo&#43;gitee搭建图床</title>
+      <link>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/%E5%88%A9%E7%94%A8picgo-gitee%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</link>
+      <pubDate>Wed, 08 Jul 2020 17:45:22 +0800</pubDate>
+      
+      <guid>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/%E5%88%A9%E7%94%A8picgo-gitee%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</guid>
+      <description>&lt;p&gt;还在为写博客没有图片而苦恼吗？来搭建一个简易的图床吧！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>给Hugo博客添加网易云音乐外链</title>
+      <link>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E5%A4%96%E9%93%BE/</link>
+      <pubDate>Mon, 06 Jul 2020 21:47:02 +0800</pubDate>
+      
+      <guid>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E5%A4%96%E9%93%BE/</guid>
+      <description>&lt;p&gt;是不是觉得自己的博客空空荡荡的少些什么呢？给自己的博客加上网易云外链吧！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JAVA环境变量配置</title>
+      <link>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Mon, 06 Jul 2020 15:23:15 +0800</pubDate>
+      
+      <guid>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE/</guid>
+      <description>&lt;p&gt;配置java变量&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>网易云 on ultraman的梦想起点</title>
+    <link>https://gitee.com/ultramanzhang/ultramanzhang.git/tags/%E7%BD%91%E6%98%93%E4%BA%91/</link>
+    <description>Recent content in 网易云 on ultraman的梦想起点</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Jul 2020 21:47:02 +0800</lastBuildDate>
+    
+	<atom:link href="https://gitee.com/ultramanzhang/ultramanzhang.git/tags/%E7%BD%91%E6%98%93%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>给Hugo博客添加网易云音乐外链</title>
+      <link>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E5%A4%96%E9%93%BE/</link>
+      <pubDate>Mon, 06 Jul 2020 21:47:02 +0800</pubDate>
+      
+      <guid>https://gitee.com/ultramanzhang/ultramanzhang.git/2020/07/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E5%A4%96%E9%93%BE/</guid>
+      <description>&lt;p&gt;是不是觉得自己的博客空空荡荡的少些什么呢？给自己的博客加上网易云外链吧！&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
